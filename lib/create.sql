@@ -7,7 +7,7 @@ CREATE TABLE project (
   id INTEGER PRIMARY,
   title TEXT,
   category TEXT,
-  goal INTEGER,
+  funding_goal INTEGER,
   start_date DATE,
   end_date DATE
 )
