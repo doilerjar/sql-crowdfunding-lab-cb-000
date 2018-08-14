@@ -14,5 +14,8 @@ CREATE TABLE project (
 )
 
 CREATE TABLE pledge (
-  amount 
+  id INTEGER PRIMARY KEY,
+  amount FLOAT,
+  user_id INTEGER,
+  project_id INTEGER
 )
