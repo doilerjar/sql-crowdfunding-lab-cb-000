@@ -4,6 +4,7 @@ CREATE TABLE users (
 )
 
 CREATE TABLE project (
+  id INTEGER PRIMARY,
   title TEXT,
   category TEXT,
   goal INTEGER,
